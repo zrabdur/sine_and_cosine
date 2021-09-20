@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run sine_and_cosine.py
