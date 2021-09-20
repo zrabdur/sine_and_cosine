@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
+import streamlit as st
 angle = np.arange(0,361)
 
 # Set Amplitude
@@ -26,4 +27,7 @@ ax[1].set(xlabel="Exam score-1", ylabel="Exam score-2")
 
 ax[0].legend( ["Cosine" ])
 ax[1].legend(['Sine'])
+
 plt.show()
+
+st.pyplot(fig)
